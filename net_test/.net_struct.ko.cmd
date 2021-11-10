@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/projects/kernel_test/net_test/net_struct.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/projects/kernel_test/net_test/net_struct.ko /home/ubuntu/projects/kernel_test/net_test/net_struct.o /home/ubuntu/projects/kernel_test/net_test/net_struct.mod.o ;  true
